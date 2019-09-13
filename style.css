@@ -25,10 +25,21 @@ details {
   margin: 30px 0;
   border: 1px solid rgb(230, 230, 230);
   border-left: 5px solid orange;
+  /* outline: 2px solid black; */
+  /* padding: 20px; */
 }
 
 summary {
-  border: 1px solid rgb(230, 230, 230);
+  /* border: 1px solid rgb(230, 230, 230); */
   /* border-left: 5px solid orange; */
   padding-left: 30px;
 }
+
+details[open] summary {
+  border-bottom: none;
+}
+
+/* .border-left-orange {
+  border-left: 5px solid orange;
+  padding-left: 20px;
+} */
